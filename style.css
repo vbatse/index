@@ -1,0 +1,38 @@
+body{
+    background-image: url(./5852639.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nbc{
+    background-color: limegreen;
+    display: flex;
+    flex-direction:row;
+    border-width: 2;
+    border-color: red;
+    border-inline-style: solid;
+    border-radius: 20px;
+
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style:none ;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    
+
+}
+h2{
+    font-size: 56px;
+    color: chartreuse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-line: line-through red;
+    
+}
+h2:hover{
+    color: gold;
+    transition:all cubic-bezier(0.165, 0.84, 0.44, 1)
+}
